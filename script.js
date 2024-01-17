@@ -10,7 +10,6 @@ class Animal {
 		console.log("animal sound");
 		}
 }
-
 class Dog extends Animal {
 	bark(){
 		console.log("woof");
@@ -18,14 +17,14 @@ class Dog extends Animal {
 	makeSound(){
 		cosole.log("woof");
 	}
-
+}
 class Cat extends Animal {
 	purr(){
 		console.log("purr");
-	}
+	}	
 	makeSound(){
 		console.log("meow");
-	}
+		}
 }
 
 // Do not change the code below this line
